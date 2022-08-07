@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 
 namespace FreeCourse.Services.Catalog.Services
 {
+    //test
     internal class CategoryService:ICategoryService
     {
         private readonly IMongoCollection<Category> _categoryCollection;
